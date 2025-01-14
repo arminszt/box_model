@@ -1,0 +1,70 @@
+body{
+    background-image: url(hatter.jpg);
+}
+
+header,footer{
+    background-color: rgb(120, 0, 0);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+div p{
+    text-align: justify;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 5px solid rgb(120, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+div#box1{
+    width: 35%;
+    float: left;
+    margin-left: 70px;
+    padding-left: 30px;
+    height: 300px;
+}
+
+div#box2{
+    width: 35%;
+    float: right;
+    margin-right: 70px;
+    padding-right: 30px;
+    height: 300px;
+}
+
+div#box3{
+    clear: both;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+div#box4{
+    width: 40%;
+    margin-left: 20px;
+    padding-right: 50px;
+    height: 210px;
+}
+
+div#box5{
+    width: 40%;
+    float: right;
+    margin-right: 20px;
+    padding-left: 50px;
+    height: 190px;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: right;
+    clear: both;
+}
